@@ -23,7 +23,10 @@ class DetailViewController: UIViewController {
     }
     
     @IBAction func LoginClicked(_ sender: UIButton) {
+        
+        
         if txtUsername.text == "abc" && txtPassword.text == "abc"{
+            
             print("Login successfull")
             let loginStatus = true
             print("User is logged in from login-check branch, \(loginStatus)")
