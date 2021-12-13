@@ -29,6 +29,9 @@ class DetailViewController: UIViewController {
             print("Login successfull")
             
         }
+        else{
+            print("Login unsucessfull")
+        }
       
         
     }
