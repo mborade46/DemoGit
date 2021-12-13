@@ -11,6 +11,8 @@ class DetailViewController: UIViewController {
     
    public var fruit : String! = ""
 
+    @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var txtUsername: UITextField!
     @IBOutlet weak var lblFruits: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +22,13 @@ class DetailViewController: UIViewController {
       
     }
     
-
+    @IBAction func LoginClicked(_ sender: UIButton) {
+        
+        
+        print("LoginPressed")
+        
+    }
+    
     /*
     // MARK: - Navigation
 

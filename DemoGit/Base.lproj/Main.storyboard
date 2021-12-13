@@ -73,6 +73,9 @@
                                         <rect key="frame" x="0.0" y="98" width="339" height="34"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                        <connections>
+                                            <action selector="LoginClicked:" destination="w5v-TK-kIR" eventType="touchUpInside" id="tE1-pK-PHO"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -90,6 +93,8 @@
                     </view>
                     <connections>
                         <outlet property="lblFruits" destination="cmd-W8-YOF" id="JGf-hd-0yr"/>
+                        <outlet property="txtPassword" destination="U3W-Bq-E91" id="sby-Pe-x3i"/>
+                        <outlet property="txtUsername" destination="tY7-X2-h0t" id="tdQ-3L-9Py"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EHZ-qO-Y6R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
