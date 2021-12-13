@@ -56,6 +56,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ws6-bl-1ej">
+                                <rect key="frame" x="45" y="163.5" width="339" height="132"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tY7-X2-h0t">
+                                        <rect key="frame" x="0.0" y="0.0" width="339" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U3W-Bq-E91">
+                                        <rect key="frame" x="0.0" y="49" width="339" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0l9-jY-wDW">
+                                        <rect key="frame" x="0.0" y="98" width="339" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cVF-7T-FZ3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -63,6 +83,9 @@
                             <constraint firstItem="cVF-7T-FZ3" firstAttribute="trailing" secondItem="cmd-W8-YOF" secondAttribute="trailing" constant="147" id="68A-Um-gk4"/>
                             <constraint firstItem="cmd-W8-YOF" firstAttribute="leading" secondItem="cVF-7T-FZ3" secondAttribute="leading" constant="136" id="77U-A3-uj9"/>
                             <constraint firstItem="cmd-W8-YOF" firstAttribute="top" secondItem="cVF-7T-FZ3" secondAttribute="top" constant="32" id="I1Q-tv-y9F"/>
+                            <constraint firstItem="ws6-bl-1ej" firstAttribute="leading" secondItem="cVF-7T-FZ3" secondAttribute="leading" constant="45" id="Rye-CE-7fF"/>
+                            <constraint firstItem="ws6-bl-1ej" firstAttribute="top" secondItem="cmd-W8-YOF" secondAttribute="bottom" constant="60" id="t5H-W4-0vd"/>
+                            <constraint firstItem="cVF-7T-FZ3" firstAttribute="trailing" secondItem="ws6-bl-1ej" secondAttribute="trailing" constant="30" id="zkD-tN-m6r"/>
                         </constraints>
                     </view>
                     <connections>
