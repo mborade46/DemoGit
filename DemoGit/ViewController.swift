@@ -17,15 +17,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         fruitsTableview.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-        
-        
     }
- 
-
 
 }
 
 extension ViewController : UITableViewDelegate,UITableViewDataSource {
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
@@ -33,8 +31,16 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for:indexPath)
+        
+        
         cell.textLabel?.text = "\(indexPath.row+1)"
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        print("row selected")
     }
     
     
