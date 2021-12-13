@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var fruitsTableview: UITableView!
     
-    
+    let fruitsArray =  ["Apples","Bananas","mangoes","peaches","pinapple"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -25,7 +25,7 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return fruitsArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -33,7 +33,8 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for:indexPath)
         
         
-        cell.textLabel?.text = "\(indexPath.row+1)"
+        cell.textLabel?.text = fruitsArray[indexPath.row].uppercased()
+        cell.textLabel?.textColor = UIColor.orange
         return cell
     }
     
