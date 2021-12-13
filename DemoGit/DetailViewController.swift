@@ -24,7 +24,11 @@ class DetailViewController: UIViewController {
     
     @IBAction func LoginClicked(_ sender: UIButton) {
         
-        
+        if txtUsername.text == "abc" && txtPassword.text == "abc"{
+            
+            print("Login successfull")
+            
+        }
       
         
     }
