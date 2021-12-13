@@ -42,20 +42,33 @@
             </objects>
             <point key="canvasLocation" x="20" y="94"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="kKy-SN-bdn">
             <objects>
-                <viewController id="w5v-TK-kIR" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="w5v-TK-kIR" customClass="DetailViewController" customModule="DemoGit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EUJ-5U-FAn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fruit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmd-W8-YOF">
+                                <rect key="frame" x="136" y="76" width="131" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="cVF-7T-FZ3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cVF-7T-FZ3" firstAttribute="trailing" secondItem="cmd-W8-YOF" secondAttribute="trailing" constant="147" id="68A-Um-gk4"/>
+                            <constraint firstItem="cmd-W8-YOF" firstAttribute="leading" secondItem="cVF-7T-FZ3" secondAttribute="leading" constant="136" id="77U-A3-uj9"/>
+                            <constraint firstItem="cmd-W8-YOF" firstAttribute="top" secondItem="cVF-7T-FZ3" secondAttribute="top" constant="32" id="I1Q-tv-y9F"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EHZ-qO-Y6R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="916" y="120"/>
+            <point key="canvasLocation" x="915.94202898550736" y="119.86607142857142"/>
         </scene>
     </scenes>
     <resources>

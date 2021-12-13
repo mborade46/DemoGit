@@ -103,12 +103,12 @@
 				BA1555902766E5F100EEF3B3 /* AppDelegate.swift */,
 				BA1555922766E5F100EEF3B3 /* SceneDelegate.swift */,
 				BA1555942766E5F100EEF3B3 /* ViewController.swift */,
+				BA3400C82766F29F00BDAB13 /* DetailViewController.swift */,
 				BA1555A62766E5F200EEF3B3 /* DemoGitTests */,
 				BA1555962766E5F100EEF3B3 /* Main.storyboard */,
 				BA1555992766E5F200EEF3B3 /* Assets.xcassets */,
 				BA15559B2766E5F200EEF3B3 /* LaunchScreen.storyboard */,
 				BA15559E2766E5F200EEF3B3 /* Info.plist */,
-				BA3400C82766F29F00BDAB13 /* DetailViewController.swift */,
 			);
 			path = DemoGit;
 			sourceTree = "<group>";

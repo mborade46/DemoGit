@@ -8,11 +8,15 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    
+   public var fruit : String! = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+      
     }
     
 

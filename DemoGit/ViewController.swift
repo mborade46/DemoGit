@@ -42,6 +42,13 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
         
         
         print("row selected")
+        
+        
+        let detailVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        detailVC.fruit = fruitsArray[indexPath.row]
+        self.present(detailVC, animated: true, completion: nil)
+     
+        
     }
     
     
