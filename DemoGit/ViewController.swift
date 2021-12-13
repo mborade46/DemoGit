@@ -47,6 +47,8 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
         let detailVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
         detailVC.fruit = fruitsArray[indexPath.row]
         self.present(detailVC, animated: true, completion: nil)
+        
+        print("added print for navigation view controller ")
      
         
     }
