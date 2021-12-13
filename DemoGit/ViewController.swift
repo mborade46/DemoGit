@@ -50,6 +50,8 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
         
         print("added print for navigation view controller ")
      
+
+        self.navigationController?.pushViewController(detailVC, animated: true)
         
     }
     
