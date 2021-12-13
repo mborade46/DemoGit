@@ -11,11 +11,12 @@ class DetailViewController: UIViewController {
     
    public var fruit : String! = ""
 
+    @IBOutlet weak var lblFruits: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        lblFruits.text = fruit
       
     }
     
