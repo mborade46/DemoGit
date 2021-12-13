@@ -25,7 +25,7 @@ class DetailViewController: UIViewController {
     @IBAction func LoginClicked(_ sender: UIButton) {
         
         
-        print("LoginPressed")
+      
         
     }
     
