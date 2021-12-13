@@ -16,6 +16,7 @@
 		BA1555A82766E5F200EEF3B3 /* DemoGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1555A72766E5F200EEF3B3 /* DemoGitTests.swift */; };
 		BA1555B22766E5F200EEF3B3 /* DemoGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1555B12766E5F200EEF3B3 /* DemoGitUITests.swift */; };
 		BA1555B42766E5F200EEF3B3 /* DemoGitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1555B32766E5F200EEF3B3 /* DemoGitUITestsLaunchTests.swift */; };
+		BA3400C92766F29F00BDAB13 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3400C82766F29F00BDAB13 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BA1555AD2766E5F200EEF3B3 /* DemoGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1555B12766E5F200EEF3B3 /* DemoGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGitUITests.swift; sourceTree = "<group>"; };
 		BA1555B32766E5F200EEF3B3 /* DemoGitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA3400C82766F29F00BDAB13 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				BA15558F2766E5F100EEF3B3 /* DemoGit */,
-				BA1555A62766E5F200EEF3B3 /* DemoGitTests */,
 				BA1555B02766E5F200EEF3B3 /* DemoGitUITests */,
 				BA15558E2766E5F100EEF3B3 /* Products */,
 			);
@@ -102,6 +103,8 @@
 				BA1555902766E5F100EEF3B3 /* AppDelegate.swift */,
 				BA1555922766E5F100EEF3B3 /* SceneDelegate.swift */,
 				BA1555942766E5F100EEF3B3 /* ViewController.swift */,
+				BA3400C82766F29F00BDAB13 /* DetailViewController.swift */,
+				BA1555A62766E5F200EEF3B3 /* DemoGitTests */,
 				BA1555962766E5F100EEF3B3 /* Main.storyboard */,
 				BA1555992766E5F200EEF3B3 /* Assets.xcassets */,
 				BA15559B2766E5F200EEF3B3 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				BA1555952766E5F100EEF3B3 /* ViewController.swift in Sources */,
 				BA1555912766E5F100EEF3B3 /* AppDelegate.swift in Sources */,
 				BA1555932766E5F100EEF3B3 /* SceneDelegate.swift in Sources */,
+				BA3400C92766F29F00BDAB13 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
